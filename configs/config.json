@@ -1,0 +1,18 @@
+{
+  "application": {
+    "name": "Wind Flight Predictor",
+    "version": "1.0.0"
+  },
+  "prediction": {
+    "minimum_ground_speed": 5,
+    "payload_penalty": 0.05,
+    "crosswind_penalty": 0.10
+  },
+  "limits": {
+    "high_wind_speed": 30,
+    "heavy_payload": 4.0
+  },
+  "report": {
+    "output_file": "flight_report.txt"
+  }
+}
